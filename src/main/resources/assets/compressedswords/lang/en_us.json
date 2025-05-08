@@ -1,3 +1,21 @@
 {
-  "item.compressedswords.test_item": "Test Item"
+  "item.compressedswords.test_item": "Test Item",
+  "item.compressedswords.compressed_sword_lvl1": "Compressed Sword Level 1",
+  "item.compressedswords.compressed_sword_lvl2": "Compressed Sword Level 2",
+  "item.compressedswords.compressed_sword_lvl3": "Compressed Sword Level 3",
+  "item.compressedswords.compressed_sword_lvl4": "Compressed Sword Level 4",
+  "item.compressedswords.compressed_sword_lvl5": "Compressed Sword Level 5",
+  "item.compressedswords.compressed_sword_lvl6": "Compressed Sword Level 6",
+  "item.compressedswords.compressed_sword_lvl7": "Compressed Sword Level 7",
+  "item.compressedswords.compressed_sword_lvl8": "Compressed Sword Level 8",
+  "item.compressedswords.compressed_sword_lvl9": "Compressed Sword Level 9",
+  "item.compressedswords.crazy_compressed_sword_lvl1": "Crazy Compressed Sword Level 1",
+  "item.compressedswords.crazy_compressed_sword_lvl2": "Crazy Compressed Sword Level 2",
+  "item.compressedswords.crazy_compressed_sword_lvl3": "Crazy Compressed Sword Level 3",
+  "item.compressedswords.crazy_compressed_sword_lvl4": "Crazy Compressed Sword Level 4",
+  "item.compressedswords.crazy_compressed_sword_lvl5": "Crazy Compressed Sword Level 5",
+  "item.compressedswords.crazy_compressed_sword_lvl6": "Crazy Compressed Sword Level 6",
+  "item.compressedswords.crazy_compressed_sword_lvl7": "Crazy Compressed Sword Level 7",
+  "item.compressedswords.crazy_compressed_sword_lvl8": "Crazy Compressed Sword Level 8",
+  "item.compressedswords.crazy_compressed_sword_lvl9": "Crazy Compressed Sword Level 9"
 }

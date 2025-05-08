@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "compressedswords:item/crazy_compressed_sword3"
+  }
+}

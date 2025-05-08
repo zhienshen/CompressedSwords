@@ -61,7 +61,6 @@ public class ModItems {
     }
 
     private static void addItemToGroup(FabricItemGroupEntries group) {
-
         group.add(test);
         group.add(compressed_sword_lvl1);
         group.add(compressed_sword_lvl2);

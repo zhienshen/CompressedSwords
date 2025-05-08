@@ -54,37 +54,13 @@ public class ModItems {
 
 
     private static Item registerItems(String id, Item item) {
+
         // return Registry.register(Registries.ITEM, RegistryKey.of(Registries.ITEM.getKey(), Identifier.of(CompressedSwords.MOD_ID, id)), item);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register((itemGroup) -> itemGroup.add(item));
         return Registry.register(Registries.ITEM, Identifier.of(CompressedSwords.MOD_ID, id), item);
-
-
-    }
-
-    private static void addItemToGroup(FabricItemGroupEntries group) {
-        group.add(test);
-        group.add(compressed_sword_lvl1);
-        group.add(compressed_sword_lvl2);
-        group.add(compressed_sword_lvl3);
-        group.add(compressed_sword_lvl4);
-        group.add(compressed_sword_lvl5);
-        group.add(compressed_sword_lvl6);
-        group.add(compressed_sword_lvl7);
-        group.add(compressed_sword_lvl8);
-        group.add(compressed_sword_lvl9);
-        group.add(crazy_compressed_sword_lvl1);
-        group.add(crazy_compressed_sword_lvl2);
-        group.add(crazy_compressed_sword_lvl3);
-        group.add(crazy_compressed_sword_lvl4);
-        group.add(crazy_compressed_sword_lvl5);
-        group.add(crazy_compressed_sword_lvl6);
-        group.add(crazy_compressed_sword_lvl7);
-        group.add(crazy_compressed_sword_lvl8);
-        group.add(crazy_compressed_sword_lvl9);
-
     }
 
     public static void registerItems() {
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addItemToGroup);
         CompressedSwords.LOGGER.info("Registering Mod Items");
     }
 }

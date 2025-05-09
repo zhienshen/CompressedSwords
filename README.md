@@ -1,4 +1,4 @@
-# Compressed Swords
+# Compressed Swords  压缩剑
 
 This mod adds 18 different compressed wooden swords with varying damage levels, divided into regular compressed wooden swords at levels 1-9 and crazy compressed wooden swords at levels 1-9. Each sword is composed of 9 previous swords and deals 2 damage.
 Through this mod, you can create a super wooden sword that can instantly kill everything, but if possible, be sure to use the ProjectE mod!

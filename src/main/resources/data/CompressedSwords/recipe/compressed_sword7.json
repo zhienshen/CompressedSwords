@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "sword",
+  "key": {
+    "#": {
+      "item": "compressedswords:compressed_sword6"
+    }
+  },
+
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "compressedswords:compressed_sword7"
+  }
+}

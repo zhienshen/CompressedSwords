@@ -52,6 +52,7 @@ public class ModItems {
 
     public static final Item crazy_compressed_sword_lvl9 = registerItems("crazy_compressed_sword9", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(18), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(18), 3, -2.4F))));
 
+    public static final Item end_compressed_sword = registerItems("end_compressed_sword", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(20), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(20), 3, -2.4F))));
 
 
     private static Item registerItems(String id, Item item) {

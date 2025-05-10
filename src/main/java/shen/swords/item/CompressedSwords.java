@@ -14,6 +14,7 @@ import static java.lang.Math.pow;
 public class CompressedSwords extends SwordItem {
 
     public CompressedSwords(ToolMaterial toolMaterial, Item.Settings settings) {
+
         super(toolMaterial, settings);
 
     }

@@ -3,10 +3,7 @@ package shen.swords.item;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemConvertible;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 //import net.minecraft.registry.RegistryKey;
@@ -19,41 +16,41 @@ public class ModItems {
 
     public static final Item test = registerItems("test_item", new Item(new Item.Settings()));
 
-    public static final Item compressed_sword_lvl1 = registerItems("compressed_sword1", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(1), new Item.Settings()));
+    public static final Item compressed_sword_lvl1 = registerItems("compressed_sword1", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(1), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(1), 3, -2.4F))));
 
-    public static final Item compressed_sword_lvl2 = registerItems("compressed_sword2", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(2), new Item.Settings()));
+    public static final Item compressed_sword_lvl2 = registerItems("compressed_sword2", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(2), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(2), 3, -2.4F))));
 
-    public static final Item compressed_sword_lvl3 = registerItems("compressed_sword3", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(3), new Item.Settings()));
+    public static final Item compressed_sword_lvl3 = registerItems("compressed_sword3", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(3), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(3), 3, -2.4F))));
 
-    public static final Item compressed_sword_lvl4 = registerItems("compressed_sword4", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(4), new Item.Settings()));
+    public static final Item compressed_sword_lvl4 = registerItems("compressed_sword4", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(4), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(4), 3, -2.4F))));
 
-    public static final Item compressed_sword_lvl5 = registerItems("compressed_sword5", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(5), new Item.Settings()));
+    public static final Item compressed_sword_lvl5 = registerItems("compressed_sword5", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(5), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(5), 3, -2.4F))));
 
-    public static final Item compressed_sword_lvl6 = registerItems("compressed_sword6", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(6), new Item.Settings()));
+    public static final Item compressed_sword_lvl6 = registerItems("compressed_sword6", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(6), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(6), 3, -2.4F))));
 
-    public static final Item compressed_sword_lvl7 = registerItems("compressed_sword7", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(7), new Item.Settings()));
+    public static final Item compressed_sword_lvl7 = registerItems("compressed_sword7", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(7), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(7), 3, -2.4F))));
 
-    public static final Item compressed_sword_lvl8 = registerItems("compressed_sword8", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(8), new Item.Settings()));
+    public static final Item compressed_sword_lvl8 = registerItems("compressed_sword8", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(8), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(8), 3, -2.4F))));
 
-    public static final Item compressed_sword_lvl9 = registerItems("compressed_sword9", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(9), new Item.Settings()));
+    public static final Item compressed_sword_lvl9 = registerItems("compressed_sword9", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(9), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(9), 3, -2.4F))));
 
-    public static final Item crazy_compressed_sword_lvl1 = registerItems("crazy_compressed_sword1", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(10), new Item.Settings()));
+    public static final Item crazy_compressed_sword_lvl1 = registerItems("crazy_compressed_sword1", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(10), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(10), 3, -2.4F))));
 
-    public static final Item crazy_compressed_sword_lvl2 = registerItems("crazy_compressed_sword2", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(11), new Item.Settings()));
+    public static final Item crazy_compressed_sword_lvl2 = registerItems("crazy_compressed_sword2", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(11), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(11), 3, -2.4F))));
 
-    public static final Item crazy_compressed_sword_lvl3 = registerItems("crazy_compressed_sword3", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(12), new Item.Settings()));
+    public static final Item crazy_compressed_sword_lvl3 = registerItems("crazy_compressed_sword3", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(12), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(12), 3, -2.4F))));
 
-    public static final Item crazy_compressed_sword_lvl4 = registerItems("crazy_compressed_sword4", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(13), new Item.Settings()));
+    public static final Item crazy_compressed_sword_lvl4 = registerItems("crazy_compressed_sword4", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(13), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(13), 3, -2.4F))));
 
-    public static final Item crazy_compressed_sword_lvl5 = registerItems("crazy_compressed_sword5", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(14), new Item.Settings()));
+    public static final Item crazy_compressed_sword_lvl5 = registerItems("crazy_compressed_sword5", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(14), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(14), 3, -2.4F))));
 
-    public static final Item crazy_compressed_sword_lvl6 = registerItems("crazy_compressed_sword6", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(15), new Item.Settings()));
+    public static final Item crazy_compressed_sword_lvl6 = registerItems("crazy_compressed_sword6", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(15), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(15), 3, -2.4F))));
 
-    public static final Item crazy_compressed_sword_lvl7 = registerItems("crazy_compressed_sword7", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(16), new Item.Settings()));
+    public static final Item crazy_compressed_sword_lvl7 = registerItems("crazy_compressed_sword7", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(16), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(16), 3, -2.4F))));
 
-    public static final Item crazy_compressed_sword_lvl8 = registerItems("crazy_compressed_sword8", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(17), new Item.Settings()));
+    public static final Item crazy_compressed_sword_lvl8 = registerItems("crazy_compressed_sword8", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(17), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(17), 3, -2.4F))));
 
-    public static final Item crazy_compressed_sword_lvl9 = registerItems("crazy_compressed_sword9", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(18), new Item.Settings()));
+    public static final Item crazy_compressed_sword_lvl9 = registerItems("crazy_compressed_sword9", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(18), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(18), 3, -2.4F))));
 
 
 

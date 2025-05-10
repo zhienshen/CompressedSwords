@@ -36,6 +36,7 @@ public class CompressedSwordsToolMaterial implements ToolMaterial {
 
     @Override
     public float getAttackDamage() {
+
         // 先计算为 double 避免整数溢出
         double damage = 4.0 * Math.pow(3, level);
 

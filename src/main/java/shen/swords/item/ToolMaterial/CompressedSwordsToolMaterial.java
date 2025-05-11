@@ -25,8 +25,8 @@ public class CompressedSwordsToolMaterial implements ToolMaterial {
 
     @Override
     public int getDurability() {
-        CompressedSwords.LOGGER.info("Durability:{}", 60 * Math.pow(3, level));
-        return (int) (60 * Math.pow(3, level));
+        CompressedSwords.LOGGER.info("Durability:{}", 60 * Math.pow(9, level));
+        return (int) (60 * Math.pow(9, level));
     }
 
     @Override
@@ -38,7 +38,7 @@ public class CompressedSwordsToolMaterial implements ToolMaterial {
     public float getAttackDamage() {
 
         // 先计算为 double 避免整数溢出
-        double damage = 4.0 * Math.pow(3, level);
+        double damage = 4.0 * Math.pow(9, level);
 
         // 限制最大值，避免浮点数溢出
         if (damage > Float.MAX_VALUE) {

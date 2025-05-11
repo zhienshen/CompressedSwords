@@ -18,5 +18,10 @@
   "item.compressedswords.crazy_compressed_sword7": "Crazy Compressed Sword Level 7",
   "item.compressedswords.crazy_compressed_sword8": "Crazy Compressed Sword Level 8",
   "item.compressedswords.crazy_compressed_sword9": "Crazy Compressed Sword Level 9",
-  "item.compressedswords.end_compressed_sword": "End Compressed Sword"
+  "item.compressedswords.end_compressed_sword": "End Compressed Sword",
+  "item.compressedswords.left_blade": "Left Blade",
+  "item.compressedswords.right_blade": "Right Blade",
+  "item.compressedswords.point": "Sword Point",
+  "item.compressedswords.connector": "Connector",
+  "item.compressedswords.hilt": "Hilt"
 }

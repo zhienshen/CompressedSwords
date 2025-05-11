@@ -4,17 +4,16 @@
   "group": "sword",
   "key": {
     "#": {
-      "item": "compressedswords:crazy_compressed_sword3"
+      "item": "compressedswords:crazy_compressed_sword9"
     }
   },
-
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "## ",
+    " ##",
+    "## "
   ],
   "result": {
     "count": 1,
-    "id": "compressedswords:crazy_compressed_sword4"
+    "id": "compressedswords:right_blade"
   }
 }

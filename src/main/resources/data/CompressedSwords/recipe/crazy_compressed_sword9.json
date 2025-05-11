@@ -5,10 +5,15 @@
   "key": {
     "#": {
       "item": "compressedswords:crazy_compressed_sword8"
+    },
+    "!": {
+      "item": "minecraft:nether_star"
     }
   },
 
   "pattern": [
+    "###",
+    "#!#",
     "###"
   ],
   "result": {

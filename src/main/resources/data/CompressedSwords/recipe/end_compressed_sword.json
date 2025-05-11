@@ -3,18 +3,27 @@
   "category": "misc",
   "group": "sword",
   "key": {
-    "#": {
-      "item": "compressedswords:crazy_compressed_sword9"
-    },
     "*": {
-      "item": "minecraft:nether_star"
+      "item": "compressedswords:left_blade"
+    },
+    "!": {
+      "item": "compressedswords:right_blade"
+    },
+    "@": {
+      "item": "compressedswords:point"
+    },
+    "$": {
+      "item": "compressedswords:connector"
+    },
+    "^": {
+      "item": "compressedswords:hilt"
     }
   },
 
   "pattern": [
-    "###",
-    "#*#",
-    "###"
+    " @ ",
+    "*$!",
+    " ^ "
   ],
   "result": {
     "count": 1,

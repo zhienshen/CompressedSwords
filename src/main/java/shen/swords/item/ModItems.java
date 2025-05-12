@@ -55,9 +55,7 @@ public class ModItems {
 
     public static final Item end_compressed_sword = registerItems("end_compressed_sword", new shen.swords.item.CompressedSwords(new CompressedSwordsToolMaterial(20), new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(new CompressedSwordsToolMaterial(20), 3, -2.4F))), ItemGroups.COMBAT);
 
-    public static final Item left_blade = registerItems("left_blade", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
-
-    public static final Item right_blade = registerItems("right_blade", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
+    public static final Item sword_blade = registerItems("sword_blade", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
 
     public static final Item point = registerItems("point", new Item(new Item.Settings()), ItemGroups.INGREDIENTS);
 

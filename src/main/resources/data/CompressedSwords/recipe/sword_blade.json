@@ -8,12 +8,12 @@
     }
   },
   "pattern": [
-    " ##",
-    "###",
-    " ##"
+    "##",
+    "##",
+    "##"
   ],
   "result": {
     "count": 1,
-    "id": "compressedswords:left_blade"
+    "id": "compressedswords:sword_blade"
   }
 }

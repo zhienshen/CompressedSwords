@@ -5,15 +5,22 @@
   "key": {
     "#": {
       "item": "compressedswords:crazy_compressed_sword9"
+    },
+    "?": {
+      "item": "minecraft:diamond"
+    },
+    "X": {
+      "tag": "minecraft:planks"
     }
   },
+
   "pattern": [
-    "## ",
-    "###",
-    "## "
+    "#X#",
+    "X?X",
+    "#X#"
   ],
   "result": {
     "count": 1,
-    "id": "compressedswords:right_blade"
+    "id": "compressedswords:connector"
   }
 }

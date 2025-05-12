@@ -3,11 +3,8 @@
   "category": "misc",
   "group": "sword",
   "key": {
-    "*": {
-      "item": "compressedswords:left_blade"
-    },
     "!": {
-      "item": "compressedswords:right_blade"
+      "item": "compressedswords:sword_blade"
     },
     "@": {
       "item": "compressedswords:point"
@@ -22,7 +19,7 @@
 
   "pattern": [
     " @ ",
-    "*$!",
+    "!$!",
     " ^ "
   ],
   "result": {
